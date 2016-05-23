@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# for faster load times and heroku errors
+gem 'rails_12factor', group: :production
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
