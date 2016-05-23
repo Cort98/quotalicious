@@ -9,6 +9,7 @@
 <body>
   <header>
   <div class="col-xs-3">
+  <%= link_to root_path, class: 'logo' do %>
     <div class="circle">
       <br />
         When you 
@@ -17,12 +18,13 @@
       <br />
         a zinger
     </div>
+    <% end %>
   </div>
   <div class="col-xs-4 slogan">
     Dedicated to giving you some funny quotes since 2016
   </div>
   <div class="col-xs-5 links">
-    <%= link_to 'Add a Quote', '#' %>
+    <%= link_to 'Add a Quote', new_quote_path %>
     <%= link_to 'About', '#' %>
   </div>
   </header>
@@ -35,7 +37,7 @@
 
 <footer class="footer">
    <div class="col-xs-6">
-        <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+        <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
     </div>
   <div class="col-xs-6 footer-blurb">
     <p class="text-muted">Created by Cort Ferguson 2016</p>
