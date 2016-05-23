@@ -1,3 +1,5 @@
+
+
 .clear {
   clear:both;
 }
@@ -6,6 +8,14 @@ hr {
 }
 header {
   border-top: 9px solid #222222;
+}
+h1 {
+  font-family: 'nobileregular', sans-serif;
+  font-weight:bold;
+  font-size:48px;
+}
+h2 {
+  font-family: 'nobilemedium_italic', sans-serif;
 }
 
 .circle {
@@ -39,5 +49,7 @@ header {
 .links a {
   color: black;
   font-size: 25px;
-  border-bottom: 1px solid #dfdfdf
+  border-bottom: 1px solid #dfdfdf;
+  font-family: 'nobileregular', sans-serif;
+  font-weight:bold;
 }
