@@ -29,7 +29,18 @@
   <hr />
   <br class="clear" />
 
-<%= yield %>
+<div class="container">
+  <%= yield %>
+</div>
+
+<footer class="footer">
+   <div class="col-xs-6">
+        <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+    </div>
+  <div class="col-xs-6 footer-blurb">
+    <p class="text-muted">Created by Cort Ferguson 2016</p>
+  </div>
+</footer>
 
 </body>
 </html>
