@@ -8,6 +8,7 @@ Quotalicious::Application.routes.draw do
   resources :quotes
 
   get 'about', to: 'quotes#about'
+  get 'newQuote', to: 'quotes#newest'
   # The priority is based upon order of creation: first created -> highest priority.
 
   
